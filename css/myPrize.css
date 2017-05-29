@@ -1,0 +1,417 @@
+.marskArr{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+}
+.prizePromp{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.prize{
+	padding-bottom: 60px;
+}
+
+.marskPrize{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.myPrizeTitle{
+	color: #D61B21;
+	font-size: 30px;
+	text-align: center;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+    margin-bottom: 48px;
+}
+.PrizeContainer{
+	background: url(../images/myprizeBox.png) no-repeat center center;
+	width: 100%;
+	height: 100%;
+    padding-top: 173px;
+    box-sizing: border-box;
+}
+.PrizeContainer1{
+	background: url(../images/myNone.png) no-repeat center center;
+	width: 100%;
+	height: 100%;
+    padding-top: 566px;
+    box-sizing: border-box;
+}
+.prizeList{
+    width: 491px;
+    margin: 0 auto;
+    height: 435px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.prizeTop{
+	padding-left: 160px;
+	position: relative;
+}
+.prizeItems>img{
+	float: left;
+}
+.prizeTop{
+	padding: 10PX;
+	padding-left: 160px;
+	position: relative;
+}
+.prizeItems{
+    font-size: 24px;
+    font-family: "microsoft yahei";
+    padding: 10px;
+    box-sizing: border-box;
+}
+.prizeItems:nth-child(odd){
+	 background-color: #eeeeee;
+}
+.leftImg{
+    position: absolute;
+    top: -8px;
+    left: 22px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+}
+.textLeft{
+	text-align: left;
+}
+.textRight{
+	text-align: right;
+}
+.prizeItems p{
+	margin: 18px;
+}
+.prizeBtn>a{
+	color: #D61B21;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	border: 1px solid #d61b21;
+	border-radius: 8px;
+	padding: 5px 35px;
+	text-decoration: none;
+	position: relative;
+}
+.address{
+	font-size: 18px;
+	padding: 36px 10px;
+	border: 1px solid #dcdcdc;
+}
+.prizebtnBox{
+	margin-top: 10px;
+}
+.prizebtnBox>a{
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #D61B21;
+    line-height: 44px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0px 31px;
+    font-family: "microsoft yahei";
+}
+.addAdderss input{
+	border: none;
+    width: 115px;
+    margin-right: 16px;
+    border-bottom: 1px solid #4B4B4B;
+    background-color: rgba(0,0,0,0);	border: none;
+	border-bottom: 1px solid #4B4B4B;
+	background-color: rgba(0,0,0,0);
+}
+.widthInput input{
+	width: 326px!important;
+}
+.prizeBtn1{
+	color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #D61B21;
+    line-height: 44px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0px 31px;
+    font-family: "microsoft yahei";
+}
+.hidden{
+	display: none;
+}
+.textLeft{
+	text-align: left;
+}
+.textRight{
+	text-align: right;
+}
+.textCenter{
+	text-align: center;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	height:100%;
+	/*padding: 15px;*/
+	box-sizing: border-box;
+	font-family: "microsoft yahei";
+	background-image: url(../images/bgimg.png);
+	background-repeat: no-repeat;
+	line-height: 1.66;
+}
+.pageBorder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.pageBorder>img{
+	width: 100%;
+	height: 100%;
+}
+.bottomArrow{
+	position: absolute;
+    top: 14px;
+    right: 10px;
+}
+input{
+	font-size: 24px;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+.marsk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.close1 {
+    position: absolute;
+    top: 92px;
+    right: 18px;
+    font-size: 45px;
+    width: 60px;
+    height: 65px;
+    line-height: 49px;
+    text-align: center;
+    color: #bdbdbd;
+    border-radius: 5px;
+}
+.prizeImg {
+    text-align: center;
+    padding-top: 32px;
+} 	
+.prizeName {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 36px;
+    font-family: "microsoft yahei";
+}
+.formBox {
+    padding: 0 40px;
+    margin-top: 18px;
+}
+.formBox>ul {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    background-color: #eeeeee;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    border-top: 1px solid #c9c9c9;
+}
+.formBox>ul>li {
+    height: 40px;
+    font-size: 18px;
+    color: #828282;
+    line-height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 10px;
+    position: relative;
+    padding-left: 64px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.formBox>ul>li>span {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.formBox>ul>li>input {
+    border: none;
+    background-color: #EEEEEE;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 5px;
+    width: 100%;
+}
+.textCenter {
+    text-align: center;
+}
+.submitBtn {
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    width: 112px;
+    height: 44px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #D61B21;
+    margin-top: 30px;
+    line-height: 44px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul, li {
+    list-style: none;
+}
+.submitBtn1 {
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    width: 112px;
+    height: 44px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #D61B21;
+    margin-top: 22px;
+    line-height: 44px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*20161222    更新*/
+
+
+.marskContainer {
+    width: 466px;
+    height: 777px;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(../images/marsk.png);
+    background-repeat: no-repeat;
+    padding-top: 178px;
+    padding-left: 10px;
+}
+.prizeImg {
+    padding-top: 32px;
+}
+.marskPrompt{
+	font-size: 18px;
+	color: #4b4b4b;
+	padding: 0 40px;
+	padding-top: 83px;
+	font-family: "microsoft yahei";
+}
+.marskContainer3{
+	width: 466px;
+	height: 777px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 0px;
+	position: relative;
+	background-image: url(../images/marsk1.png);
+	background-repeat: no-repeat;
+	padding-top: 168px;
+}
+.prizeNamePrompt{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: -32px;
+    font-family: "microsoft yahei";
+}
+.redClose{
+	color: #D61B21;
+	text-align: center;
+	display: inline-block;
+	width: 174px;
+	height: 44px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	margin-top: 192px;
+	line-height: 44px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "microsoft yahei";
+}
+.prizeImgBox{
+	margin: 0 auto;
+	width: 93px;
+	height: 93px;
+	line-height: 100px;
+}
+.prizeImgBox img{
+	width: 100%;
+}
+.leftImg img{
+	width: 93px;
+}
+.codeImg{
+    margin-top: 17px;
+    padding-left: 35px;
+    opacity: 0;
+    filter: alpha(opacity:0);
+    filter: "alpha(opacity:0)";
+    position: fixed;
+    top: 700px;
+    left: 0px;
+    z-index: 10000;
+}
+
+
+
+
+
+.xq_anti{
+    position: relative;
+    left:74%;
+    top: 15px;
+    opacity: 0;
+}
+.qrcode{
+    padding: 300px 0 0 195px!important;
+    margin: -300px 0 0 -392px !important;
+    position:relative;
+    z-index:20;
+    -webkit-user-select:none;
+    opacity: 0;
+}
+.form_ewn{
+    padding-bottom: 64px;
+    margin: 0 auto;
+}
+.form_ewn_con{
+    width: 94%;
+    margin: 0 auto;
+}
